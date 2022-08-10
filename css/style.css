@@ -187,6 +187,7 @@ body {
         padding: 120px 0px 191px 0px;
     }
 }
+
 @media(max-width: 479px) {
     .main-block__body {
         padding: 120px 0px 160px 0px;
@@ -297,9 +298,7 @@ body {
 
 .services__container {}
 
-.services__body {
-    
-}
+.services__body {}
 
 @media(min-width: 670px) {
     .services__body {
@@ -325,9 +324,11 @@ body {
     .services__column {
         flex: 0 1 50%;
     }
-    .services__column:not(:last-child){
+
+    .services__column:not(:last-child) {
         margin: 0px 0px 30px 0px;
     }
+
     .services__column:last-child {
         flex: 1 1 100%;
     }
@@ -377,8 +378,41 @@ body {
     color: #737373;
 }
 
+/* ===================ADVANTAGES==================== */
 
+.page__advanteges {
+}
+.advanteges {
+}
+.advanteges__container {
+}
+._container {
+}
+.advantages__header {
 
+}
+.header-block {
+    text-align: center;
+
+}
+.header__block__title {
+
+}
+.header__block__sub-title {
+
+}
+.advantages__body {
+}
+.advantages__column {
+}
+.advantages__item {
+}
+.advantages__icon {
+}
+.advantagex__value {
+}
+.advantages__text {
+}
 /* ===========FOOTER==================== */
 .footer {
     color: #252B42;
